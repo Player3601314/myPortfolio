@@ -290,14 +290,14 @@ body {
 }
 
 .countainer_css--hr {
-    width: 88%;
+    width: 95%;
     height: 4px;
     background: linear-gradient(92deg, #7B3CA0 0%, #213982 100%, #7B3CA0 100%);
     border: none;
 }
 
 .countainer_css--hr1 {
-    width: 12%;
+    width: 5%;
     height: 4px;
     background-color: #fff;
     border: none;
@@ -308,14 +308,14 @@ body {
 }
 
 .countainer_js--hr {
-    width: 12%;
+    width: 88%;
     height: 4px;
     background: linear-gradient(92deg, #7B3CA0 0%, #213982 100%, #7B3CA0 100%);
     border: none;
 }
 
 .countainer_js--hr1 {
-    width: 88%;
+    width: 12%;
     height: 4px;
     background: #fff;
     border: none;
