@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    padding: 26px 30px;
+    justify-content: space-between;
+}
+body{
+    background-color: whitesmoke;
+}
+.header_text h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+nav{
+    width: 420px;
+    padding: 14px 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+section{
+    background-color: #fff;
+    margin-top: 40px;
+    height: 840px;
+}
+.text_div{
+    width: 46%;
+    margin: auto;
+
+}
+.text_div i{
+    font-size: 46px;
+}
+.lorem_i p{
+    font-size: 45px;
+    font-weight: 400;
+}
+.lorem_i{
+    width: 40%;
+    margin-left: 100px;
+}
+.lorem_text{
+    display: flex;
+    flex-direction: row;
+}

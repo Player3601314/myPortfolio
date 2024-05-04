@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://edit-va-delits.vercel.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table class="customers">
+        <tbody><tr>
+            <th>№</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Ball</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </tbody></table>
+    <table id="data" class="customers"></table>
+
+    <div class="edit__modal" id="editModal" style="display: none;">
+        <div class="modal__content">
+            <div class="modal__close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <section class="edit__todo__form">
+                <form>
+                    <input type="text" class="edit__todo__input" id="editInput">
+                    <button type="submit" class="button__edit__todo">Save</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <h1>Add Data</h1>
+
+    <form action="" id="form">
+        <input type="text" id="name">
+        <input type="date" id="date">
+        <input type="number" id="ball">
+
+        <button id="btn" type="submit">Yuborish</button>
+    </form>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

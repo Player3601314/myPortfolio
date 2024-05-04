@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    padding: 160px 40px 0px 0px;
+}
+.text_flex img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 16px;
+}
+.text_flex{
+    width: 80%;
+    margin: auto;
+}
+.text_flex h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.flex_img{
+    margin-left: -10px;
+}
+.img_div h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.img_div img{
+    width: 400px;
+    height: 360px;
+    border-radius: 20px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.img_div p{
+    color: rgba(20, 20, 30,.6);
+}
+.img_div a{
+    color: rgba(20, 20, 30,.6);
+    margin-left: 6px;
+}
+.img_div a:hover{
+    color: orange;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0,0.75),rgba(0, 0, 0,0.75)), url(https://www.thedailymeal.com/img/gallery/the-ultimate-american-fast-food-restaurants-ranked/l-intro-1670029550.jpg);
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div{
+    width: 16%;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 120px;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer div h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+footer div p{
+    margin-bottom: 10px;
+}
+.day{
+    font-weight: 600;
+}
+.num{
+    width: 120px;
+    color: orange;
+    border-bottom: solid orange 1px;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+.num2{
+    width: 120px;
+    color: orange;
+    border-bottom: solid orange 1px;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+.flex_p{
+    color: rgba(200, 200, 200, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 100%;
+    margin-top: 22%;
+}
+.flex_p a{
+    color: rgba(200, 200, 200, 0.6);
+    font-size: 20px;
+    margin-left: 6px;
+    text-decoration: none;
+    border-bottom: 1px rgba(200, 200, 200, 0.6) solid;
+}
+.end{
+    background-color: rgba(0, 0, 0,0.75);
+    color: #fff;
+    padding: 38px;
+    text-align: center;
+}
+    </style>
+    <section>
+        <div class="img_div">
+            <h1>Testimonials</h1>
+            <img src="./img/Pizza-slice-pizza.jpg" alt="">
+            <p>Image from<a href="#">Freepik</a></p>
+        </div>
+        <div class="text_div">
+            <div class="text_flex">
+                <div class="almedia">
+                    <img src="./img/Untitled.png" alt=""><img class="flex_img" src="./img/Untitled.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla, illo non aliquam debitis blanditiis? Itaque corporis tempora cum consequuntur expedita consectetur nesciunt illum, minus impedit dolorem.</p>
+                    <h4>Celia Almedia</h4>
+                </div>
+                <div class="frank">
+                    <img src="./img/Untitled.png" alt=""><img class="flex_img" src="./img/Untitled.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat expedita ad necessitatibus repudiandae animi corporis a repellendus magni asperiores!</p>
+                    <h4>Frank Kinney</h4>
+                </div>
+                <div class="neison">
+                    <img src="./img/Untitled.png" alt=""><img class="flex_img" src="./img/Untitled.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio modi illum temporibus culpa, nulla obcaecati sunt odit tenetur enim, repellendus quidem fugit recusandae.</p>
+                    <h4>Phoebe Neison</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="found">
+            <h4>FIND US</h4>
+            <p>121 Rock Street, 21</p>
+            <p> Avenue, New York,</p>
+            <p>Ny 92103-9000</p>
+        </div>
+        <div class="hours">
+            <h4>HOURS</h4>
+            <p class="day">Monday - Saturday</p>
+            <p>9am - 7pm</p>
+            <p class="day">Sunday</p>
+            <p>10am - 6pm</p>
+        </div>
+        <div class="call">
+            <h4>CALL US</h4>
+            <p class="num">1(234) 567-891</p>
+            <p class="num2">2 (345) 333-897</p>
+        </div>
+        <p class="flex_p">Image from<a href="#">Freepik</a></p>
+    </footer>
+    <div class="end">
+        <p>Sample text. Click to select the Text Element.</p>
+    </div>
+</body>
+</html>

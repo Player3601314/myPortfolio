@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" id="tema">
+    <title>Document</title>
+</head>
+
+<body>
+    <i class="fa fa-bars" onclick="openFunc()" aria-hidden="true"></i>
+    <header class="header">
+
+        <div class="header_countainer">
+
+            <nav class="header_nav">
+                <div class="nav_countainer">
+                    <div class="sidebar_content">
+                        <p class="sidebar_content--p">Content
+                            <i class="fa fa-times" onclick="closeFunc()" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <a class="nav_countainer--a" href="#">HOME</a>
+                    <a class="nav_countainer--a" href="#">ABOUT ME</a>
+                    <a class="nav_countainer--a" href="#">MY WORK</a>
+                    <a class="nav_countainer--a" href="#">CONTACT</a>
+                    <div class="nav_profile">
+                        <div class="dark-light_countainer">
+                            <button id="header_bnt--dark">
+                                <i class="fa-solid fa-sun" style="color: #fff;"></i>
+                                <i class="fa-solid fa-moon" style="color: black;"></i>
+                            </button>
+                        </div>
+                        <a href="#">
+                            <img class="nav_profile--img" src="./img/photo_2023-08-26_07-10-01.jpg" alt="profile img">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+    <div class="countainer"></div>
+
+    <script src="./script.js"></script>
+    <script src="./dark-light.js"></script>
+</body>
+
+</html>

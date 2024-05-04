@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Rye&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./picture.css" id="picture-tema">
+    <link rel="stylesheet" href="./style.css" id="tema">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_img">
+            <img class="header_img--img" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/323145483_625713585979679_2467909660666230884_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0mXCjQkQAV0Q7kNvgFwgA-M&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QFfipDehN3EkwFU4AdqlyarLpbVCp2ptZBikUu_nDcz3g&oe=665D4CE8" alt="img">
+        </div>
+        <i class="fa fa-bars" onclick="openFunc()" aria-hidden="true"></i>
+        <nav class="header_nav">
+            <div class="header_nav_countainer">
+                <div class="sidebar_content">
+                    <p class="sidebar_content--p">Content
+                        <i class="fa fa-times" onclick="closeFunc()" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <a class="header_nav--a" href="#">HOME</a>
+                <a class="header_nav--a" href="#">ABOUT ME</a>
+                <a class="header_nav--a" href="#">MY WORK</a>
+                <a class="header_nav--a" href="#">CONTACT</a>
+                <div class="dark-light_countainer">
+                    <button id="header_bnt--dark">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="searchbar">
+        <!-- <div class="searchbar_countainer">
+                <input type="search" id="searchApp" placeholder="Search..." onkeyup="searchFunc()"><i class="fa fa-times" onclick="closeFunc()" aria-hidden="true"></i>
+            </div> -->
+    </div>
+    <div class="countainer--search">
+        <div class="container">
+            <div class="im">
+                <div class="im_container">
+                    <div class="container_text">
+                        <div class="text_h1">
+                            <h1 class="container_text--h1">I'M PROFISSIOANAL</h1>
+                            <h2 class="container_text--h2">WEB DEVELOPER</h2>
+                        </div>
+                        <div class="text_p">
+                            <p>Hi I’m Abdullayev Muhammad, I have 1+ years of experience as a Web developer designer
+                                specializing in web and mobile design</p>
+                        </div>
+                        <div class="text_btn">
+                            <a class="text_btn_link" href="#"><button class="text_btn--btn1">HIRE ME</button></a>
+                            <a class="text_btn_link1" href="#"><button class="text_btn--btn2">DAWNLOOAD C.V</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solar_system">
+                <div class="solar_system_img">
+                    <img class="solar_system_img--img" src="./img/Group 119.png" alt="Solar">
+                </div>
+            </div>
+            <div class="about_me">
+                <div class="about_me_countainer">
+                    <div class="countainer_about_img">
+                        <img class="countainer_about_img--img"
+                            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/323145483_625713585979679_2467909660666230884_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0mXCjQkQAV0Q7kNvgFwgA-M&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QFfipDehN3EkwFU4AdqlyarLpbVCp2ptZBikUu_nDcz3g&oe=665D4CE8" alt="My img">
+                    </div>
+                    <div class="countainer_about_text">
+                        <h2 class="countainer_about_text--h2">ABOUT ME</h2>
+                        <h4 class="countainer_about_text--h4">Hi,I’m Abdullayev Muhammad.I have 1+ years of experience
+                            as a
+                            Web developer designer specializing in web</h4>
+                        <p class="countainer_about_text--p">_ MY SPECIALIZATIONS <br>
+                            — Web developer: Web design <br>
+                            — Web developer: Windows design <br>
+                            — E-commerce design <br>
+                            — Landing page design <br>
+                            — Web application / Windows <br>
+                            — Dashboard design
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="achievements">
+                <div class="achievements_countainer">
+                    <h4 class="achievements_countainer--h4">MY ACHIEVEMENTS</h4>
+                    <div class="countainer_html">
+                        <p class="countainer--p">HTML</p>
+                        <hr class="countainer_html--hr">
+                    </div>
+                    <div class="countainer_css">
+                        <p class="countainer--p">CSS</p>
+                        <div class="countainer_css_hr--flex">
+                            <hr class="countainer_css--hr">
+                            <hr class="countainer_css--hr1">
+                        </div>
+                    </div>
+                    <div class="countainer_js">
+                        <p class="countainer--p">JAVA SCRIPT</p>
+                        <div class="countainer_js_hr--flex">
+                            <hr class="countainer_js--hr">
+                            <hr class="countainer_js--hr1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myWorks">
+                <div class="myWorks_countainer">
+                    <h4 class="myWorks_countainer--h4">RECENT WORK</h4>
+                    <div class="slider">
+                        <div class="slider_img">
+                            <img src="img/Screenshot_1.png" alt="">
+                            <img src="./img/Screenshot_2.png" alt="">
+                            <img src="./img/Screenshot_3.png" alt="">
+                            <img src="./img/Screenshot_4.png" alt="">
+                            <img src="./img/Screenshot_5.png" alt="">
+                        </div>
+                        <div class="slider_btn">
+                            <button class="btn btn-prev">
+                                <p class="btn-prev_p">Preve</p>
+                            </button>
+                            <button class="btn btn-next">
+                                <p class="btn-next_p">Next</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="myWorks_countainer_more">
+                        <a href="../../see_more/index.html" class="myWorks_countainer_more--a">
+                            <button class="myWorks_countainer_more--btn">
+                                <p class="myWorks_countainer_more--p">SEE MORE</p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="myTeachers">
+                <div class="myTeachers_countainers">
+                    <h3 class="myTeachers_countainers--h3">TESTIMONIALS</h3>
+                    <h4 class="myTeachers_countainers--h4">What Our Clients Say</h4>
+                    <div class="myTeachers_profiles">
+                        <div class="profiles_flex">
+                            <div class="profiles profiles_shahriyorDev">
+                                <a href="#">
+                                    <div class="profiles_shahriyorDev_about">
+                                        <div class="shahriyorDev_about_img">
+                                            <img class="shahriyorDev_about_img--img"
+                                                src="./img/photo_2022-09-14_14-10-03.jpg" alt="Shahriyor Dev">
+                                        </div>
+                                        <div class="shahriyorDev_about_text">
+                                            <h4 class="shahriyorDev_about_text--h4">Shahriyor Dev
+                                            </h4>
+                                            <p class="shahriyorDev_about_text--p">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Provident, corrupti! Dolores, maxime alias. Veritatis,
+                                                accusamus voluptatibus non necessitatibus cum quidem.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="profiles profiles_maruf">
+                                <a href="#">
+                                    <div class="profiles_maruf_about">
+                                        <div class="maruf_about_img">
+                                            <img class="maruf_about_img--img" src="./img/photo_2023-02-13_00-06-42.jpg"
+                                                alt="Shahriyor Dev">
+                                        </div>
+                                        <div class="maruf_about_text">
+                                            <h4 class="maruf_about_text--h4">Ma'ruf</h4>
+                                            <p class="maruf_about_text--p">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Provident, corrupti! Dolores, maxime alias. Veritatis,
+                                                accusamus voluptatibus non necessitatibus cum quidem.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="profiles profiles_shahriyorYorbekov">
+                                <a href="#">
+                                    <div class="profiles_shahriyorYorbekov_about">
+                                        <div class="shahriyorYorbekov_about_img">
+                                            <img class="shahriyorYorbekov_about_img--img"
+                                                src="./img/photo_2022-11-29_00-40-32.jpg" alt="Shahriyor Dev">
+                                        </div>
+                                        <div class="shahriyorYorbekov_about_text">
+                                            <h4 class="shahriyorYorbekov_about_text--h4">Shahriyor Yorbekov</h4>
+                                            <p class="shahriyorYorbekov_about_text--p">Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit. Provident, corrupti! Dolores, maxime
+                                                alias.
+                                                Veritatis, accusamus voluptatibus non necessitatibus cum quidem.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_countainer">
+                <div class="footer_about">
+                    <div class="footer_about_text">
+                        <div class="footer_text_flex">
+                            <h4 class="footer_about_text--h4">Let’s Make Something new, diffierent geat together.</h4>
+                            <p class="footer_about_text--p">just say hello</p>
+                            <div class="footer_links">
+                                <div class="links_call">
+                                    <div class="links_call_countainer">
+                                        <a class="links_call_countainer--a" href="#">
+                                            <span class="call_img--img"></span>
+                                            <p class="call_text--p">+998 97 646 45 38</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="links_location">
+                                    <div class="links_location_countainer">
+                                        <a class="links_location_countainer--a" href="#">
+                                            <span class="location_img--img"></span>
+                                            <p class="location_text--p">Jizzakh, Khayrabad</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="links_email">
+                                    <div class="links_email_countainer">
+                                        <a class="links_email_countainer--a" href="#">
+                                            <span class="email_img--img"></span>
+                                            <p class="email_text--p">m88771314@gmail.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_about_form">
+                        <form class="footer_form" action="#">
+                            <input class="form_input--name" placeholder="Your Name" type="text">
+                            <input class="form_input--addres" placeholder="Email Addres" type="text">
+                            <textarea class="form_textarea" placeholder="Message" style="resize: none;" cols="50"
+                                rows="7"></textarea>
+                            <a class="form_btn--link" href="#"><button type="submit"
+                                    class="footer_form--btn">Submit</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./dark-light.js"></script>
+    <script src="./picture.js"></script>
+    <script src="./serch.js"></script>
+</body>
+
+</html>

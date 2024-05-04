@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+button {
+    margin: 260px 400px;
+    padding: 20px 40px;
+    border: none;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    background-color: cyan;
+    box-shadow: 0 0 10px cyan,0 0 30px cyan;
+}
+button:hover {
+box-shadow: 0 0 5px cyan,
+0 0 100px cyan, 0 0 200px cyan,
+0 04200px cyan, 0 0 800px cyan;
+}

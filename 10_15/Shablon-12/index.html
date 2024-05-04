@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+}
+.device{
+    display: flex;
+    margin-top: 40px;
+}
+.mobile{
+    width: 175px;
+    height: 590px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.mobile_p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.mobile .header{
+    background-color: rgb(20, 20, 40);
+    padding: 4px;
+}
+.mobile .header p{
+    color: #fff;
+    font-size: 18px;
+    padding: 6px;
+}
+.mobile .menu{
+    background-color: rgb(180, 20, 80);
+    padding: 4px;
+}
+.mobile .menu p{
+    color: #fff;
+    font-size: 18px;
+    padding: 6px;
+}
+.mobile .hero{
+    background-color: rgba(0, 120, 255,0.6);
+    padding: 26px 10px;
+}
+.mobile .hero p{
+    color: #fff;
+    font-size: 18px;
+} 
+.mobile .main{
+    background-color: rgba(0, 10, 50, 0.85);
+    padding: 28px 12px;
+}
+.mobile .main p{
+    color: #fff;
+    font-size: 18px;
+}
+.mobile .banner{
+    background-color: rgb(220, 200, 20);
+    padding: 24px 12px;
+}
+.mobile .extra{
+    background-color: rgb(0, 220, 180);
+    padding: 24px 12px;
+}
+.mobile .image{
+    background-color: rgb(190, 220, 255);
+    padding: 24px 12px;
+}
+.tablet{
+    width: 435px;
+    height: 590px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tablet .header{
+    background-color: rgb(20, 20, 40);
+    padding: 4px;
+}
+.tablet_p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.tablet .header p{
+    color: #fff;
+    font-size: 18px;
+    padding: 6px;
+}
+.tablet .hero{
+    background-color: rgba(0, 120, 255,0.6);
+    padding: 48px;
+}
+.tablet .hero p{
+    color: #fff;
+    font-size: 20px;
+}
+.tablet .menu{
+    background-color: rgb(180, 20, 80);
+    width: 100px;
+    height: 340px;
+    padding: 140px 10px;
+}
+.tablet .menu p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.tablet .main{
+    background-color: rgba(0, 10, 50, 0.85);
+    padding: 80px 120px;
+}
+.extra_flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex{
+    display: flex;
+}
+.main_flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main_flex p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tablet .banner{
+    width: 100%;
+    background-color: rgb(220, 200, 20);
+    padding: 30px;
+}
+.tablet .banner p{
+    color: black;
+}
+.tablet .extra{
+    padding: 28.5px 68px;
+    background-color: rgb(0, 220, 180);
+}
+.tablet .extra p{
+    color: black;
+}
+.tablet .image{
+    background-color: rgb(190, 220, 255);
+    padding: 26px 18.5px;
+}
+.tablet .image p{
+    color: black;
+}
+.desktop_p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.desktop{
+    width: 636px;
+    height: 590px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 6px;
+}
+.flex_desktop{
+    display: flex;
+}
+.desktop .header{
+    background-color: rgb(20, 20, 40);
+    padding: 10px 36px;
+}
+.desktop .header p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.desktop .menu{
+    background-color: rgb(180, 20, 80);
+    padding: 8px 173px;
+}
+.desktop .menu p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.desktop .hero{
+    background-color: rgba(0, 120, 255,0.6);
+    padding: 90px 12px;
+}
+.desktop .hero p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.desk_flx{
+    display: flex;
+}
+.desktop .main{
+    background-color: rgba(0, 10, 50, 0.85);
+    padding: 70px 120px;
+}
+.desktop .main p{
+    color: #fff;
+}
+.desktop .empty{
+    background-color: #fff;
+    padding: 40px 60px;
+}
+.image_flex{
+    display: flex;
+    flex-direction: column;
+}
+.desktop .image{
+    background-color: rgb(190, 220, 255);
+    padding: 30px 38px;
+}
+.desktop .image p{
+    color: black;
+}
+.desktop .extra{
+    background-color: rgb(0, 220, 180);
+    padding: 30px 38px;
+}
+.desktop .banner{
+    background-color: rgb(220, 200, 20);
+    padding: 36.5px;
+}
+    </style>
+    <div class="device">
+        <div class="mobile">
+            <p class="mobile_p">MOBILE</p>
+            <div class="header"><p> HEADER</p></div>
+            <div class="menu"><p>MENU</p></div>
+            <div class="hero"><p>HERO</p></div>
+            <div class="main"><p>MAIN</p></div>
+            <div class="banner"><p>BANNER</p></div>
+            <div class="extra"><p>EXTRA</p></div>
+            <div class="image"><p>IMAGE</p></div>
+        </div>
+        <div class="tablet">
+            <p class="tablet_p">TABLET</p>
+            <div class="header"><p>HEADER</p></div>
+            <div class="hero"><p>HERO</p></div>
+            <div class="main_flex">
+                <div class="flex">
+                    <div class="menu"><p>MENU</p></div>
+                    <div>
+                        <div class="main"><p>MAIN</p></div>
+                        <div class="banner"><p>BANNER</p></div>
+                        <div class="extra_flex">
+                            <div class="extra"><p>EXTRA</p></div>
+                            <div class="image"><p>IMAGE</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop">
+            <p class="desktop_p">DESKTOP</p>
+            <div class="flex_desktop">
+                <div class="header"><p> HEADER</p></div>
+                <div class="menu"><p>MENU</p></div>
+            </div>
+            <div class="hero"><p>HERO</p></div>
+            <div class="desk_flx">
+                <div class="main"><p>MAIN</p></div>
+                <div class="empty"></div>
+                <div class="image_flex">
+                    <div class="image"><p>IMAGE</p></div>
+                    <div class="extra"><p>EXTRA</p></div>
+                </div>
+            </div>
+            <div class="banner"><p>BANNER</p></div>
+        </div>
+    </div>
+</body>
+</html>

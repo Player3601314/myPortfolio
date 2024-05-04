@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+}
+.section{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(220, 180, 0);
+    font-size: 55px;
+}
+    .jobs{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+.jobs p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.img_div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 120px;
+    /* margin-left: 180px; */
+}
+.sun_old{
+    width: 55%;
+    height: 350px;
+    border-radius: 4%;
+}
+.gradiant{
+    width: 400px;
+    height: 350px;
+    border-radius: 8%;
+    margin-left: 60px;
+}
+.img_div2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-left: 140px; */
+}
+.sun_old2{
+    width: 55%;
+    height: 350px;
+    border-radius: 4%;
+    margin-right: 26px;
+}
+.gradiant2{
+    width: 400px;
+    height: 350px;
+    border-radius: 8%;
+    margin-right: 60px;
+}
+.footer{
+    width: 40%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+}
+.footer_p{
+    font-size: 55px;
+    font-weight: 700;
+    padding: 20px 17px;
+    border-radius: 60px;
+    background-color: rgba(0, 180, 180,0.4);
+    box-shadow: 0px 4px 4px rgba(0, 80, 80,0.4);
+}
+.footer h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.un_link{
+    margin-top: 30px;
+}
+button{
+    border: none;
+    padding: 16px 50px;
+    border-radius: 50px;
+    background-color: rgb(100, 20, 255);
+    margin-top: 36px;
+}
+button a{
+    color: rgba(255, 255, 255,0.6);
+    font-size: 14px;
+}
+    </style>
+        <div class="section">
+            <nav>
+                <a href="#">300</a>
+                <a href="#">10k</a>
+                <a href="#">48</a>
+                <a href="#">2k</a>
+            </nav>
+            <div class="jobs">
+                <p>Jobs Completed</p>
+                <p>Idustry Exprience</p>
+                <p>Global Clients</p>
+                <p>Awwards Winned</p>
+            </div>
+            <div class="img_div">
+                <img class="sun_old" src="https://cc-prod.scene7.com/is/image/CCProdAuthor/Photography%20Page%20JDI_marquee_tb?$pjpeg$&jpegSize=200&wid=1199" alt="">
+                <img class="gradiant" src="https://www.pexels.com/photo/674010/download/" alt="">
+            </div>
+            <div class="img_div2">
+                <img class="sun_old2" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/combine-photos-iphonne.jpg" alt="">
+                <img class="gradiant2" src="https://images.unsplash.com/photo-1618042164219-62c820f10723?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG93bmxvYWR8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="">
+            </div>
+            <div class="footer">
+                <h1><p class="footer_p">Ready for your</p></h1>
+                <p>degital success?</p>
+                <p class="un_link">Sample text. Click to select the Text Element</p>
+                <button><a>Get started</a></button>
+            </div>
+        </div>
+</body>
+</html>

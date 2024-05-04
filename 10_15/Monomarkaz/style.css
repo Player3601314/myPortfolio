@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+body{
+    background-color: #2b2b2b;
+    transition: 0.5s;
+    color: #fff;
+}
+body.active{
+    background: #ffffffbf;
+}
+#toggle{
+    position: absolute;
+    display: block;
+    right: 30px;
+    top: 14px;
+    width: 60px;
+    height: 30px;
+    border-radius: 160px;
+    background: #222;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+                inset 0 8px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
+#toggle .indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, #444, #222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+                inset 0 4px 4px rgba(255, 255, 255, 0.2),
+                inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+}
+#toggle.active{
+    background: #fff;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+                inset 0 2px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 8px rgba(0, 0, 0, 0.05);
+}
+#toggle.active .indicator{
+    left: 31px;
+    background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+        inset 0 4px 4px rgba(255, 255, 255, 0.2),
+        inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+}
+#toggle.active ~ h1{
+    color: black;
+}
+#toggle.active ~ *{
+    background-color: #fff;
+}
+#toggle.active ~ .ishga_marhamat{
+    background-color: #fff;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+section{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://jizzaxmonomarkaz.uz/assets/Image/slide-3.jpg);
+}
+.box_menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 56px;
+    background-color: #2A3855;
+    padding: 16px 0px;
+}
+.box_img{
+    width: 16px;
+    height: 16px;
+}
+.box_menu a{
+    color: #fff;
+    text-decoration: none;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -190px;
+}
+.box_a{
+    color: #fff;
+    text-decoration: none;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -190px;
+}
+.box_a:hover{
+    border-bottom: 1px #fff solid;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+nav a{
+    color: rgb(34, 50, 78);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.blue_btn{
+    padding: 12px 48px;
+    background-color: rgb(42, 56, 85);
+    border: none;
+    border-radius: 4px;
+}
+.blue_btn:hover{
+    background-color: rgb(34, 50, 78);
+    cursor: pointer;
+}
+.yellow_btn{
+    padding: 12px 48px;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+}
+button  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.text_head{
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 60%;
+}
+.flex_h1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.text_head h4{
+    color: #fff;
+    margin-bottom: 60px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.text_head p{
+    color: #fff;
+    font-size: 60px;
+    display: inline-block;
+    margin-left: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bulimlar{
+    width: 86%;
+    margin: auto;
+}
+.bulimlar h4{
+    font-size: 44px;
+    font-family: "Montserrat","Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-align: center;
+    color: rgb(42, 56, 85);
+    margin-top: 80px;
+}
+.bulimlar hr{
+    width: 20%;
+    border: rgb(42, 56, 85) 3px solid;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.servis_xizmati{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    font-family: "Montserrat","Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
+}
+.servis_xizmati_img{
+    width: 50%;
+    border-radius: 8px 0 0 0;
+    margin-right: 50px;
+}
+.servis_text{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(42, 56, 85);
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.yul{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+.batafsil{
+    width: 170px;
+    height: 22px;
+    color: rgb(42, 56, 85);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.servis_xizmati a:hover{
+    border-bottom: 1px solid rgb(42, 56, 85);
+}
+.texnika{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    font-family: "Montserrat","Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+}
+.texnika img{
+    width: 50%;
+    height: 400px;
+}
+.texnika a:hover{
+    border-bottom: 1px solid rgb(42, 56, 85);
+}
+.qurilish{
+    width: 50%;
+    border-radius: 0px 0px 0px 10px;
+}
+.statik{
+    font-family: "Montserrat","Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.text_div{
+    width: 90%;
+    height: 160px;
+    display: flex;
+    margin-top: 260px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    color: #1f1f1f;
+}
+.text_div h4{
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: rgb(253, 212, 40);
+}
+.text_div p{
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.statik img{
+    width: 55px;
+    height: 55px;
+}
+.statik_flex{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #1f1f1f;
+}
+.statistika h4{
+    font-size: 55px;
+    font-weight: 700;
+}
+.statistika p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 500px;
+}
+.yutqlar img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 300px;
+}
+.yangiliklar{
+    width: 100%;
+    height: 1000px;
+}
+.yangiliklar h4{
+    color: rgb(42, 56, 85);
+    font-size: 44px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 8px;
+}
+.yangiliklar hr{
+    width: 20%;
+    border: rgb(42, 56, 85) 3px solid;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.ish_flex{
+    display: flex;
+    margin-left: 60px;
+}
+.ishga_marhamat{
+    width: 27%;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.ishga_marhamat img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.ishga_marhamat h4{
+    font-size: 20px;
+    text-align: start;
+    margin-top: -90px;
+    width: 280px;
+}
+.ishga_marhamat p{
+    font-size: 20px;
+    color: gray;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.reginstratsiya{
+    width: 100%;
+    height: 500px;
+    background-color: #3D4C6F;
+    margin-top: 500px;
+    display: flex;
+}
+.padding{
+    width: 48%;
+    padding: 120px;  
+}
+.flex_links{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.email{
+    width: 540px;
+    height: 265px;
+    background-color: rgb(42, 56, 85);
+    border-radius: 8px;
+    padding: 60px;
+}
+.email h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+.email p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.email input{
+    margin-top: 20px;
+    padding: 16px 40px 16px 10px;
+    border: none;
+    border-radius: 4px;
+}
+.email button{
+    background-color: yellow;
+    padding: 16.5px 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.email button a{
+    color: #1f1f1f;
+    font-size: 12.5px;
+    font-weight: 600;
+}
+.links{
+    width: 44%;
+    height: auto;
+}
+.links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+}
+.links li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.web_sites{
+    display: flex;
+}
+.web_img{
+    width: 44px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(42, 56, 85);
+    padding: 10px;
+}
+.web_img2{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: rgb(42, 56, 85);
+    margin-top: 10px;
+    padding: 10px;
+}
+.web_img3{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: rgb(42, 56, 85);
+    margin-top: 6px;
+    padding: 10px;
+}
+.web_img4{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+
+    margin-top: 12px;
+}
+.web_sites li{
+    width: 20%;
+}
+.web_sites a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+.web_sites img{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: rgb(42, 56, 85);
+}
+.img_flex{
+    width: 30px;
+    height: 30px;
+}
+.links a:hover{
+    border-bottom: 1px solid #fff;
+}
+.flex_img{
+    width: 30px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(42, 56, 85);
+    padding: 40px;
+}
+.name{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.name img{
+    width: 130px;
+    height: 130px;
+}
+.name h4{
+    color: rgba(255, 255, 255, .75);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.name a{
+    color: rgba(255, 255, 255, .75);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.name a:hover{
+    border-bottom: 1px solid #fff;
+}
